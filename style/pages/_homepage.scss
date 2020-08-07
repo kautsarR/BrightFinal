@@ -3,14 +3,6 @@
     color: #0029BA;
 }
 
-.anim {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #0F00BA;
-}
-
 .landing {
     background-image: url('/src/images/bg-lp.jpg');
     background-size: cover;
@@ -150,7 +142,7 @@
     .class-card {
         margin-top: 150px;
         .card-image {
-            background-color: #979797;
+            background-color: #F2F2F2;
             width: 218px;
             height: 218px;
             border-top-left-radius: 10px;
@@ -158,6 +150,7 @@
             img {
                 height: 180px;
                 margin-top: 20px;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
             }
         }
         .card {
@@ -165,6 +158,7 @@
             width: 220px;
             margin-left: 20px;
             border-radius: 20px;
+            filter: drop-shadow(6px 6px 5px rgba(0, 0, 0, 0.25));
         }
         .card-title {
             color: #0F00BA;
