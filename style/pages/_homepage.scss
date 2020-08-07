@@ -3,6 +3,14 @@
     color: #0029BA;
 }
 
+.anim {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #0F00BA;
+}
+
 .landing {
     background-image: url('/src/images/bg-lp.jpg');
     background-size: cover;
