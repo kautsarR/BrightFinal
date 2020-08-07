@@ -10854,6 +10854,21 @@ body {
   background: #0F00BA;
   border-radius: 20px;
   padding: 5px 12px;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+
+.landing .subtitle-text .btn-blue:hover {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #0F00BA;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 5px 12px;
+  border: 1px solid #181818;
+  font-weight: 500;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
 }
 
 .landing .subtitle-text .btn-white {
@@ -10862,6 +10877,17 @@ body {
   border-radius: 20px;
   padding: 5px 12px;
   text-decoration: none;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+
+.landing .subtitle-text .btn-white:hover {
+  color: #ffffff;
+  background: #181818;
+  border-radius: 20px;
+  padding: 5px 12px;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
 }
 
 .about {
@@ -10925,6 +10951,17 @@ body {
   border-radius: 20px;
   padding: 5px 12px;
   text-decoration: none;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+
+.class .class-text .btn-white:hover {
+  color: #ffffff;
+  background: #181818;
+  border-radius: 20px;
+  padding: 5px 12px;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
 }
 
 .class .class-card {
@@ -10983,5 +11020,25 @@ body {
 .footer {
   background: #0F00BA;
   color: #FFFFFF;
+  height: 350px;
+  margin-top: 80px;
+}
+
+.footer .footer-content .row .col ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.footer .footer-content .row .col ul li a {
+  margin-left: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.footer .footer-content .row .col h1 {
+  margin-left: 15px;
 }
 /*# sourceMappingURL=main.css.map */

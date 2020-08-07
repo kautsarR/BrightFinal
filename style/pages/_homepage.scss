@@ -44,14 +44,34 @@
             background: #0F00BA;
             border-radius: 20px;
             padding: 5px 12px;
+            transition: ease-in 0.3s;
         }
         
+        .btn-blue:hover {
+            box-sizing: border-box;
+            color:#0F00BA;
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 5px 12px;
+            border: 1px solid #181818;
+            font-weight: 500;
+            transition: ease-in 0.3s;
+        }
+
         .btn-white {
             color:#181818;
             border: 1px solid #181818;
             border-radius: 20px;
             padding: 5px 12px;
             text-decoration: none;
+            transition: ease-in 0.3s;
+        }
+        .btn-white:hover {
+            color:#ffffff;
+            background: #181818;
+            border-radius: 20px;
+            padding: 5px 12px;
+            transition: ease-in 0.3s;
         }
     }
 }
@@ -108,6 +128,14 @@
             border-radius: 20px;
             padding: 5px 12px;
             text-decoration: none;
+            transition: ease-in 0.3s;
+        }
+        .btn-white:hover {
+            color:#ffffff;
+            background: #181818;
+            border-radius: 20px;
+            padding: 5px 12px;
+            transition: ease-in 0.3s;
         }
     }
 
@@ -163,4 +191,30 @@
 .footer {
     background: #0F00BA;
     color: #FFFFFF;
+    height: 350px;
+    margin-top: 80px;
+
+    .footer-content {
+        .row {
+            .col {
+                ul {
+                    display: inline-block;
+                    list-style: none;
+                    padding: 0;
+                    margin-bottom: 0;
+                    li {
+                        a {
+                            margin-left: 10px;
+                            color: #ffffff;
+                            font-size: 18px;
+                            text-decoration: none;
+                        }
+                    }
+                }
+                h1 {
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
 }
