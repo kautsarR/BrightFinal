@@ -11053,6 +11053,15 @@ body .button-up img {
   margin-bottom: 0;
 }
 
+.content-homepage .footer .footer-content .row .col ul li {
+  margin-bottom: 4px;
+}
+
+.content-homepage .footer .footer-content .row .col ul li img {
+  width: 25px;
+  height: 25px;
+}
+
 .content-homepage .footer .footer-content .row .col ul li a {
   margin-left: 10px;
   color: #ffffff;
@@ -11121,7 +11130,7 @@ body .button-up img {
   background: #FFFFFF;
   -webkit-box-shadow: -2px 2px 21px 8px rgba(0, 0, 0, 0.25);
           box-shadow: -2px 2px 21px 8px rgba(0, 0, 0, 0.25);
-  margin-top: 100px;
+  margin-top: 50px;
   margin-right: -80px;
 }
 
@@ -11139,6 +11148,15 @@ body .button-up img {
   margin-bottom: 0;
 }
 
+.content-about .footer .footer-content .row .col ul li {
+  margin-bottom: 4px;
+}
+
+.content-about .footer .footer-content .row .col ul li img {
+  width: 25px;
+  height: 25px;
+}
+
 .content-about .footer .footer-content .row .col ul li a {
   margin-left: 10px;
   color: #ffffff;
@@ -11147,6 +11165,84 @@ body .button-up img {
 }
 
 .content-about .footer .footer-content .row .col h1 {
+  margin-left: 15px;
+}
+
+.content-contact .landing {
+  background-image: url("/src/images/hero-contact.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+}
+
+.content-contact .landing .navbar-brand img {
+  height: 70px;
+}
+
+.content-contact .landing .navbar-link .nav-item {
+  margin-right: 30px;
+  font-size: 18px;
+}
+
+.content-contact .landing .navbar-link .nav-link {
+  color: #FFF9F9 !important;
+}
+
+.content-contact .landing .title {
+  margin-top: 250px;
+  color: #FFFFFF;
+}
+
+.content-contact .content {
+  height: 800px;
+}
+
+.content-contact .content .banner {
+  -webkit-filter: drop-shadow(10px 15px 9px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(10px 15px 9px rgba(0, 0, 0, 0.25));
+}
+
+.content-contact .content .title p {
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.content-contact .content label {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.content-contact .footer {
+  background: #0F00BA;
+  color: #FFFFFF;
+  height: 350px;
+  margin-top: 80px;
+}
+
+.content-contact .footer .footer-content .row .col ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.content-contact .footer .footer-content .row .col ul li {
+  margin-bottom: 4px;
+}
+
+.content-contact .footer .footer-content .row .col ul li img {
+  width: 25px;
+  height: 25px;
+}
+
+.content-contact .footer .footer-content .row .col ul li a {
+  margin-left: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.content-contact .footer .footer-content .row .col h1 {
   margin-left: 15px;
 }
 /*# sourceMappingURL=main.css.map */

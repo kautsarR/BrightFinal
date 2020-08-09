@@ -1,6 +1,6 @@
-.content-about {
+.content-contact {
     .landing {
-        background-image: url('/src/images/hero-about.jpg');
+        background-image: url('/src/images/hero-contact.jpg');
         background-size: cover;
         background-position: center;
         height: 450px;
@@ -27,35 +27,20 @@
         }
     }
 
-    .about {
-        height: 1100px;
-
-        .banner-1 {
-            margin-top: 80px;
+    .content {
+        height: 800px;
+        .banner {
+            filter: drop-shadow(10px 15px 9px rgba(0, 0, 0, 0.25));
         }
-        .col.text-title {
-            width: 450px;
-            height: 200px;
-            background: #FFFFFF;
-            box-shadow: -2px 2px 21px 8px rgba(0, 0, 0, 0.25);
-            margin-top: 130px;
-            margin-left: -80px;
+        .title {
+            p {
+                font-size: 18px;
+                line-height: 35px;
+            }
         }
-        .row:first-child {
-            margin-bottom: 100px;
-        }
-
-        .banner-2 {
-            z-index: -9999;
-        }
-
-        .col.text-title-2 {
-            width: 450px;
-            height: 200px;
-            background: #FFFFFF;
-            box-shadow: -2px 2px 21px 8px rgba(0, 0, 0, 0.25);
-            margin-top: 50px;
-            margin-right: -80px;
+        label {
+            font-size: 20px;
+            font-weight: 500;
         }
     }
 
