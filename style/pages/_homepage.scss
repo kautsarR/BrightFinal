@@ -1,219 +1,220 @@
 .biru {
     color: #0029BA;
 }
-
-.landing {
-    background-image: url('/src/images/bg-lp.jpg');
-    background-size: cover;
-    height: 940px;
-
-    .navbar-brand {
-        img {
-            height: 100px;
-        }
-    }
-
-    .navbar-link {
-        .nav-item {
-            margin-right: 30px;
-            font-size: 18px;
-        }
-        .nav-link {
-            color: #FFF9F9 !important;
-        }
-    }
-
-    .title-text {
-        margin-top: 100px;
-        p:first-child {
-            font-size: 40px;
-            font-weight: 600;
-        }
-
-        p:last-child {
-            font-size: 20px;
-            font-weight: 400;
-        }
-    }
-
-    .subtitle-text {
-        margin-top: 30px;
-        .btn-blue {
-            color:#FFF9F9;
-            background: #0F00BA;
-            border-radius: 20px;
-            padding: 5px 12px;
-            transition: ease-in 0.3s;
-        }
-        
-        .btn-blue:hover {
-            box-sizing: border-box;
-            color:#0F00BA;
-            background: #ffffff;
-            border-radius: 20px;
-            padding: 5px 12px;
-            border: 1px solid #181818;
-            font-weight: 500;
-            transition: ease-in 0.3s;
-        }
-
-        .btn-white {
-            color:#181818;
-            border: 1px solid #181818;
-            border-radius: 20px;
-            padding: 5px 12px;
-            text-decoration: none;
-            transition: ease-in 0.3s;
-        }
-        .btn-white:hover {
-            color:#ffffff;
-            background: #181818;
-            border-radius: 20px;
-            padding: 5px 12px;
-            transition: ease-in 0.3s;
-        }
-    }
-}
-
-.about {
-    background-image: url('/src/images/bg-about.jpg');
-    background-size: cover;
-    height: 850px;
-
-    .col-5.about-img {
-        margin-top: 300px;
-        img {
-            height: 350px;
-        }
-    }
-
-    .col-7.about-text {
-        color: #FFFFFF;
-        margin-top: 280px;
-        h1 {
-            margin-bottom: 70px;
-        }
-        p {
-            font-size: 25px;
-        }
-        .btn-about-see {
-            font-size: 20px;
-            color: #FFFFFF;
-            border-bottom: 2px solid #FFFFFF;
-            text-decoration: none;
-        }
-    }
-}
-
-.class {
-    background-image: url('/src/images/bg-class.jpg');
-    background-size: cover;
-    height: 700px;
-
-    .class-text {
-        margin-top: 200px;
-        h1 {
-            font-weight: 700;
-            margin-bottom: 30px;
-        }
-        p {
-            font-weight: 600;
-            font-size: 22px;
-            margin-bottom: 30px;
-        }
-        .btn-white {
-            color:#181818;
-            border: 1px solid #181818;
-            border-radius: 20px;
-            padding: 5px 12px;
-            text-decoration: none;
-            transition: ease-in 0.3s;
-        }
-        .btn-white:hover {
-            color:#ffffff;
-            background: #181818;
-            border-radius: 20px;
-            padding: 5px 12px;
-            transition: ease-in 0.3s;
-        }
-    }
-
-    .class-card {
-        margin-top: 150px;
-        .card-image {
-            background-color: #F2F2F2;
-            width: 218px;
-            height: 218px;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
+.content-homepage {
+    .landing {
+        background-image: url('/src/images/bg-lp.jpg');
+        background-size: cover;
+        height: 940px;
+    
+        .navbar-brand {
             img {
-                height: 180px;
-                margin-top: 20px;
-                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                height: 100px;
             }
         }
-        .card {
-            display: inline-block;
-            width: 220px;
-            margin-left: 20px;
-            border-radius: 20px;
-            filter: drop-shadow(6px 6px 5px rgba(0, 0, 0, 0.25));
+    
+        .navbar-link {
+            .nav-item {
+                margin-right: 30px;
+                font-size: 18px;
+            }
+            .nav-link {
+                color: #FFF9F9 !important;
+            }
         }
-        .card-title {
-            color: #0F00BA;
+    
+        .title-text {
+            margin-top: 100px;
+            p:first-child {
+                font-size: 40px;
+                font-weight: 600;
+            }
+    
+            p:last-child {
+                font-size: 20px;
+                font-weight: 400;
+            }
+        }
+    
+        .subtitle-text {
+            margin-top: 30px;
+            .btn-blue {
+                color:#FFF9F9;
+                background: #0F00BA;
+                border-radius: 20px;
+                padding: 5px 12px;
+                transition: ease-in 0.3s;
+            }
+            
+            .btn-blue:hover {
+                box-sizing: border-box;
+                color:#0F00BA;
+                background: #ffffff;
+                border-radius: 20px;
+                padding: 5px 12px;
+                border: 1px solid #181818;
+                font-weight: 500;
+                transition: ease-in 0.3s;
+            }
+    
+            .btn-white {
+                color:#181818;
+                border: 1px solid #181818;
+                border-radius: 20px;
+                padding: 5px 12px;
+                text-decoration: none;
+                transition: ease-in 0.3s;
+            }
+            .btn-white:hover {
+                color:#ffffff;
+                background: #181818;
+                border-radius: 20px;
+                padding: 5px 12px;
+                transition: ease-in 0.3s;
+            }
         }
     }
-}
-
-.location {
-    background-image: url('/src/images/bg-location.jpg');
-    background-size: cover;
-    height: 770px;
-
-    .location-image {
-        img {
-            filter: drop-shadow(10px 15px 9px rgba(0, 0, 0, 0.25));
+    
+    .about {
+        background-image: url('/src/images/bg-about.jpg');
+        background-size: cover;
+        height: 850px;
+    
+        .col-5.about-img {
+            margin-top: 300px;
+            img {
+                height: 350px;
+            }
+        }
+    
+        .col-7.about-text {
+            color: #FFFFFF;
+            margin-top: 280px;
+            h1 {
+                margin-bottom: 70px;
+            }
+            p {
+                font-size: 25px;
+            }
+            .btn-about-see {
+                font-size: 20px;
+                color: #FFFFFF;
+                border-bottom: 2px solid #FFFFFF;
+                text-decoration: none;
+            }
         }
     }
-    .location-text {
-        margin-top: 210px;
-        margin-left: -240px;
-        color: #ffffff;
-        h1 {
-            margin-bottom: 40px;
+    
+    .class {
+        background-image: url('/src/images/bg-class.jpg');
+        background-size: cover;
+        height: 700px;
+    
+        .class-text {
+            margin-top: 200px;
+            h1 {
+                font-weight: 700;
+                margin-bottom: 30px;
+            }
+            p {
+                font-weight: 600;
+                font-size: 22px;
+                margin-bottom: 30px;
+            }
+            .btn-white {
+                color:#181818;
+                border: 1px solid #181818;
+                border-radius: 20px;
+                padding: 5px 12px;
+                text-decoration: none;
+                transition: ease-in 0.3s;
+            }
+            .btn-white:hover {
+                color:#ffffff;
+                background: #181818;
+                border-radius: 20px;
+                padding: 5px 12px;
+                transition: ease-in 0.3s;
+            }
         }
-        p {
-            font-size: 20px;
+    
+        .class-card {
+            margin-top: 150px;
+            .card-image {
+                background-color: #F2F2F2;
+                width: 218px;
+                height: 218px;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                img {
+                    height: 180px;
+                    margin-top: 20px;
+                    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                }
+            }
+            .card {
+                display: inline-block;
+                width: 220px;
+                margin-left: 20px;
+                border-radius: 20px;
+                filter: drop-shadow(6px 6px 5px rgba(0, 0, 0, 0.25));
+            }
+            .card-title {
+                color: #0F00BA;
+            }
         }
     }
-
-}
-
-.footer {
-    background: #0F00BA;
-    color: #FFFFFF;
-    height: 350px;
-    margin-top: 80px;
-
-    .footer-content {
-        .row {
-            .col {
-                ul {
-                    display: inline-block;
-                    list-style: none;
-                    padding: 0;
-                    margin-bottom: 0;
-                    li {
-                        a {
-                            margin-left: 10px;
-                            color: #ffffff;
-                            font-size: 18px;
-                            text-decoration: none;
+    
+    .location {
+        background-image: url('/src/images/bg-location.jpg');
+        background-size: cover;
+        height: 770px;
+    
+        .location-image {
+            img {
+                filter: drop-shadow(10px 15px 9px rgba(0, 0, 0, 0.25));
+            }
+        }
+        .location-text {
+            margin-top: 210px;
+            margin-left: -240px;
+            color: #ffffff;
+            h1 {
+                margin-bottom: 40px;
+            }
+            p {
+                font-size: 20px;
+            }
+        }
+    
+    }
+    
+    .footer {
+        background: #0F00BA;
+        color: #FFFFFF;
+        height: 350px;
+        margin-top: 80px;
+    
+        .footer-content {
+            .row {
+                .col {
+                    ul {
+                        display: inline-block;
+                        list-style: none;
+                        padding: 0;
+                        margin-bottom: 0;
+                        li {
+                            a {
+                                margin-left: 10px;
+                                color: #ffffff;
+                                font-size: 18px;
+                                text-decoration: none;
+                            }
                         }
                     }
-                }
-                h1 {
-                    margin-left: 15px;
+                    h1 {
+                        margin-left: 15px;
+                    }
                 }
             }
         }

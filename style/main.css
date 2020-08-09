@@ -10830,44 +10830,44 @@ body .button-up img {
   color: #0029BA;
 }
 
-.landing {
+.content-homepage .landing {
   background-image: url("/src/images/bg-lp.jpg");
   background-size: cover;
   height: 940px;
 }
 
-.landing .navbar-brand img {
+.content-homepage .landing .navbar-brand img {
   height: 100px;
 }
 
-.landing .navbar-link .nav-item {
+.content-homepage .landing .navbar-link .nav-item {
   margin-right: 30px;
   font-size: 18px;
 }
 
-.landing .navbar-link .nav-link {
+.content-homepage .landing .navbar-link .nav-link {
   color: #FFF9F9 !important;
 }
 
-.landing .title-text {
+.content-homepage .landing .title-text {
   margin-top: 100px;
 }
 
-.landing .title-text p:first-child {
+.content-homepage .landing .title-text p:first-child {
   font-size: 40px;
   font-weight: 600;
 }
 
-.landing .title-text p:last-child {
+.content-homepage .landing .title-text p:last-child {
   font-size: 20px;
   font-weight: 400;
 }
 
-.landing .subtitle-text {
+.content-homepage .landing .subtitle-text {
   margin-top: 30px;
 }
 
-.landing .subtitle-text .btn-blue {
+.content-homepage .landing .subtitle-text .btn-blue {
   color: #FFF9F9;
   background: #0F00BA;
   border-radius: 20px;
@@ -10876,7 +10876,7 @@ body .button-up img {
   transition: ease-in 0.3s;
 }
 
-.landing .subtitle-text .btn-blue:hover {
+.content-homepage .landing .subtitle-text .btn-blue:hover {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: #0F00BA;
@@ -10889,7 +10889,7 @@ body .button-up img {
   transition: ease-in 0.3s;
 }
 
-.landing .subtitle-text .btn-white {
+.content-homepage .landing .subtitle-text .btn-white {
   color: #181818;
   border: 1px solid #181818;
   border-radius: 20px;
@@ -10899,7 +10899,7 @@ body .button-up img {
   transition: ease-in 0.3s;
 }
 
-.landing .subtitle-text .btn-white:hover {
+.content-homepage .landing .subtitle-text .btn-white:hover {
   color: #ffffff;
   background: #181818;
   border-radius: 20px;
@@ -10908,62 +10908,62 @@ body .button-up img {
   transition: ease-in 0.3s;
 }
 
-.about {
+.content-homepage .about {
   background-image: url("/src/images/bg-about.jpg");
   background-size: cover;
   height: 850px;
 }
 
-.about .col-5.about-img {
+.content-homepage .about .col-5.about-img {
   margin-top: 300px;
 }
 
-.about .col-5.about-img img {
+.content-homepage .about .col-5.about-img img {
   height: 350px;
 }
 
-.about .col-7.about-text {
+.content-homepage .about .col-7.about-text {
   color: #FFFFFF;
   margin-top: 280px;
 }
 
-.about .col-7.about-text h1 {
+.content-homepage .about .col-7.about-text h1 {
   margin-bottom: 70px;
 }
 
-.about .col-7.about-text p {
+.content-homepage .about .col-7.about-text p {
   font-size: 25px;
 }
 
-.about .col-7.about-text .btn-about-see {
+.content-homepage .about .col-7.about-text .btn-about-see {
   font-size: 20px;
   color: #FFFFFF;
   border-bottom: 2px solid #FFFFFF;
   text-decoration: none;
 }
 
-.class {
+.content-homepage .class {
   background-image: url("/src/images/bg-class.jpg");
   background-size: cover;
   height: 700px;
 }
 
-.class .class-text {
+.content-homepage .class .class-text {
   margin-top: 200px;
 }
 
-.class .class-text h1 {
+.content-homepage .class .class-text h1 {
   font-weight: 700;
   margin-bottom: 30px;
 }
 
-.class .class-text p {
+.content-homepage .class .class-text p {
   font-weight: 600;
   font-size: 22px;
   margin-bottom: 30px;
 }
 
-.class .class-text .btn-white {
+.content-homepage .class .class-text .btn-white {
   color: #181818;
   border: 1px solid #181818;
   border-radius: 20px;
@@ -10973,7 +10973,7 @@ body .button-up img {
   transition: ease-in 0.3s;
 }
 
-.class .class-text .btn-white:hover {
+.content-homepage .class .class-text .btn-white:hover {
   color: #ffffff;
   background: #181818;
   border-radius: 20px;
@@ -10982,11 +10982,11 @@ body .button-up img {
   transition: ease-in 0.3s;
 }
 
-.class .class-card {
+.content-homepage .class .class-card {
   margin-top: 150px;
 }
 
-.class .class-card .card-image {
+.content-homepage .class .class-card .card-image {
   background-color: #F2F2F2;
   width: 218px;
   height: 218px;
@@ -10994,14 +10994,14 @@ body .button-up img {
   border-top-right-radius: 10px;
 }
 
-.class .class-card .card-image img {
+.content-homepage .class .class-card .card-image img {
   height: 180px;
   margin-top: 20px;
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.class .class-card .card {
+.content-homepage .class .class-card .card {
   display: inline-block;
   width: 220px;
   margin-left: 20px;
@@ -11010,57 +11010,143 @@ body .button-up img {
           filter: drop-shadow(6px 6px 5px rgba(0, 0, 0, 0.25));
 }
 
-.class .class-card .card-title {
+.content-homepage .class .class-card .card-title {
   color: #0F00BA;
 }
 
-.location {
+.content-homepage .location {
   background-image: url("/src/images/bg-location.jpg");
   background-size: cover;
   height: 770px;
 }
 
-.location .location-image img {
+.content-homepage .location .location-image img {
   -webkit-filter: drop-shadow(10px 15px 9px rgba(0, 0, 0, 0.25));
           filter: drop-shadow(10px 15px 9px rgba(0, 0, 0, 0.25));
 }
 
-.location .location-text {
+.content-homepage .location .location-text {
   margin-top: 210px;
   margin-left: -240px;
   color: #ffffff;
 }
 
-.location .location-text h1 {
+.content-homepage .location .location-text h1 {
   margin-bottom: 40px;
 }
 
-.location .location-text p {
+.content-homepage .location .location-text p {
   font-size: 20px;
 }
 
-.footer {
+.content-homepage .footer {
   background: #0F00BA;
   color: #FFFFFF;
   height: 350px;
   margin-top: 80px;
 }
 
-.footer .footer-content .row .col ul {
+.content-homepage .footer .footer-content .row .col ul {
   display: inline-block;
   list-style: none;
   padding: 0;
   margin-bottom: 0;
 }
 
-.footer .footer-content .row .col ul li a {
+.content-homepage .footer .footer-content .row .col ul li a {
   margin-left: 10px;
   color: #ffffff;
   font-size: 18px;
   text-decoration: none;
 }
 
-.footer .footer-content .row .col h1 {
+.content-homepage .footer .footer-content .row .col h1 {
+  margin-left: 15px;
+}
+
+.content-about .landing {
+  background-image: url("/src/images/hero-about.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+}
+
+.content-about .landing .navbar-brand img {
+  height: 70px;
+}
+
+.content-about .landing .navbar-link .nav-item {
+  margin-right: 30px;
+  font-size: 18px;
+}
+
+.content-about .landing .navbar-link .nav-link {
+  color: #FFF9F9 !important;
+}
+
+.content-about .landing .title {
+  margin-top: 250px;
+  color: #FFFFFF;
+}
+
+.content-about .about {
+  height: 1100px;
+}
+
+.content-about .about .banner-1 {
+  margin-top: 80px;
+}
+
+.content-about .about .col.text-title {
+  width: 450px;
+  height: 200px;
+  background: #FFFFFF;
+  -webkit-box-shadow: -2px 2px 21px 8px rgba(0, 0, 0, 0.25);
+          box-shadow: -2px 2px 21px 8px rgba(0, 0, 0, 0.25);
+  margin-top: 130px;
+  margin-left: -80px;
+}
+
+.content-about .about .row:first-child {
+  margin-bottom: 100px;
+}
+
+.content-about .about .banner-2 {
+  z-index: -9999;
+}
+
+.content-about .about .col.text-title-2 {
+  width: 450px;
+  height: 200px;
+  background: #FFFFFF;
+  -webkit-box-shadow: -2px 2px 21px 8px rgba(0, 0, 0, 0.25);
+          box-shadow: -2px 2px 21px 8px rgba(0, 0, 0, 0.25);
+  margin-top: 100px;
+  margin-right: -80px;
+}
+
+.content-about .footer {
+  background: #0F00BA;
+  color: #FFFFFF;
+  height: 350px;
+  margin-top: 80px;
+}
+
+.content-about .footer .footer-content .row .col ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.content-about .footer .footer-content .row .col ul li a {
+  margin-left: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.content-about .footer .footer-content .row .col h1 {
   margin-left: 15px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,92 @@
+.content-about {
+    .landing {
+        background-image: url('/src/images/hero-about.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+    
+        .navbar-brand {
+            img {
+                height: 70px;
+            }
+        }
+    
+        .navbar-link {
+            .nav-item {
+                margin-right: 30px;
+                font-size: 18px;
+            }
+            .nav-link {
+                color: #FFF9F9 !important;
+            }
+        }
+
+        .title {
+            margin-top: 250px;
+            color: #FFFFFF;
+        }
+    }
+
+    .about {
+        height: 1100px;
+
+        .banner-1 {
+            margin-top: 80px;
+        }
+        .col.text-title {
+            width: 450px;
+            height: 200px;
+            background: #FFFFFF;
+            box-shadow: -2px 2px 21px 8px rgba(0, 0, 0, 0.25);
+            margin-top: 130px;
+            margin-left: -80px;
+        }
+        .row:first-child {
+            margin-bottom: 100px;
+        }
+
+        .banner-2 {
+            z-index: -9999;
+        }
+
+        .col.text-title-2 {
+            width: 450px;
+            height: 200px;
+            background: #FFFFFF;
+            box-shadow: -2px 2px 21px 8px rgba(0, 0, 0, 0.25);
+            margin-top: 100px;
+            margin-right: -80px;
+        }
+    }
+
+    .footer {
+        background: #0F00BA;
+        color: #FFFFFF;
+        height: 350px;
+        margin-top: 80px;
+    
+        .footer-content {
+            .row {
+                .col {
+                    ul {
+                        display: inline-block;
+                        list-style: none;
+                        padding: 0;
+                        margin-bottom: 0;
+                        li {
+                            a {
+                                margin-left: 10px;
+                                color: #ffffff;
+                                font-size: 18px;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                    h1 {
+                        margin-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
