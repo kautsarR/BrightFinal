@@ -7,17 +7,31 @@
     
         .navbar-brand {
             img {
-                height: 70px;
+                height: 57px;
             }
         }
     
         .navbar-link {
             .nav-item {
-                margin-right: 30px;
+                margin-right: 20px;
                 font-size: 18px;
             }
             .nav-link {
                 color: #FFF9F9 !important;
+                border: 1px solid transparent;
+                box-sizing: border-box;
+                transition: all ease-in 0.2s;
+            }
+            .navbar-link, a:hover {
+                box-sizing: border-box;
+                border: 2px solid transparent;
+                border-bottom: 2px solid #fff;
+                transition: all ease-in 0.2s;
+            }
+            .aktip {
+                box-sizing: border-box;
+                border: 2px solid transparent;
+                border-bottom: 2px solid #fff;
             }
         }
 

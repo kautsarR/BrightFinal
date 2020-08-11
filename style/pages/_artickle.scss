@@ -1,6 +1,6 @@
-.content-contact {
+.content-artickle {
     .landing {
-        background-image: url('/src/images/hero-contact.jpg');
+        background-image: url('/src/images/hero-article.jpg');
         background-size: cover;
         background-position: center;
         height: 450px;
@@ -42,22 +42,14 @@
     }
 
     .content {
-        height: 800px;
-        .banner {
-            filter: drop-shadow(10px 15px 9px rgba(0, 0, 0, 0.25));
+        height: 100%;
+        .artickle-link {
+            box-sizing: border-box;
+            border: 2px;
+            border-bottom: 2px solid #343a40;
         }
-        .title {
-            p {
-                font-size: 18px;
-                line-height: 35px;
-            }
-        }
-        label {
-            font-size: 20px;
-            font-weight: 500;
-        }
-        .btn-info {
-            background-color: #0F00BA !important;
+        .col-8 .card {
+            box-shadow: 6px 8px 32px 1px rgba(0, 0, 0, 0.25);
         }
     }
 

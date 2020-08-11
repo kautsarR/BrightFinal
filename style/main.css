@@ -10833,6 +10833,7 @@ body .button-up img {
 .content-homepage .landing {
   background-image: url("/src/images/bg-lp.jpg");
   background-size: cover;
+  background-position: center;
   height: 940px;
 }
 
@@ -10841,12 +10842,33 @@ body .button-up img {
 }
 
 .content-homepage .landing .navbar-link .nav-item {
-  margin-right: 30px;
+  margin-right: 20px;
   font-size: 18px;
 }
 
 .content-homepage .landing .navbar-link .nav-link {
   color: #FFF9F9 !important;
+  border: 1px solid transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all ease-in 0.2s;
+  transition: all ease-in 0.2s;
+}
+
+.content-homepage .landing .navbar-link .navbar-link, .content-homepage .landing .navbar-link a:hover {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid transparent;
+  border-bottom: 2px solid #fff;
+  -webkit-transition: all ease-in 0.2s;
+  transition: all ease-in 0.2s;
+}
+
+.content-homepage .landing .navbar-link .aktip {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid transparent;
+  border-bottom: 2px solid #fff;
 }
 
 .content-homepage .landing .title-text {
@@ -11081,16 +11103,37 @@ body .button-up img {
 }
 
 .content-about .landing .navbar-brand img {
-  height: 70px;
+  height: 57px;
 }
 
 .content-about .landing .navbar-link .nav-item {
-  margin-right: 30px;
+  margin-right: 20px;
   font-size: 18px;
 }
 
 .content-about .landing .navbar-link .nav-link {
   color: #FFF9F9 !important;
+  border: 1px solid transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all ease-in 0.2s;
+  transition: all ease-in 0.2s;
+}
+
+.content-about .landing .navbar-link .navbar-link, .content-about .landing .navbar-link a:hover {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid transparent;
+  border-bottom: 2px solid #fff;
+  -webkit-transition: all ease-in 0.2s;
+  transition: all ease-in 0.2s;
+}
+
+.content-about .landing .navbar-link .aktip {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid transparent;
+  border-bottom: 2px solid #fff;
 }
 
 .content-about .landing .title {
@@ -11176,16 +11219,37 @@ body .button-up img {
 }
 
 .content-contact .landing .navbar-brand img {
-  height: 70px;
+  height: 57px;
 }
 
 .content-contact .landing .navbar-link .nav-item {
-  margin-right: 30px;
+  margin-right: 20px;
   font-size: 18px;
 }
 
 .content-contact .landing .navbar-link .nav-link {
   color: #FFF9F9 !important;
+  border: 1px solid transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all ease-in 0.2s;
+  transition: all ease-in 0.2s;
+}
+
+.content-contact .landing .navbar-link .navbar-link, .content-contact .landing .navbar-link a:hover {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid transparent;
+  border-bottom: 2px solid #fff;
+  -webkit-transition: all ease-in 0.2s;
+  transition: all ease-in 0.2s;
+}
+
+.content-contact .landing .navbar-link .aktip {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid transparent;
+  border-bottom: 2px solid #fff;
 }
 
 .content-contact .landing .title {
@@ -11210,6 +11274,10 @@ body .button-up img {
 .content-contact .content label {
   font-size: 20px;
   font-weight: 500;
+}
+
+.content-contact .content .btn-info {
+  background-color: #0F00BA !important;
 }
 
 .content-contact .footer {
@@ -11243,6 +11311,102 @@ body .button-up img {
 }
 
 .content-contact .footer .footer-content .row .col h1 {
+  margin-left: 15px;
+}
+
+.content-artickle .landing {
+  background-image: url("/src/images/hero-article.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+}
+
+.content-artickle .landing .navbar-brand img {
+  height: 57px;
+}
+
+.content-artickle .landing .navbar-link .nav-item {
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.content-artickle .landing .navbar-link .nav-link {
+  color: #FFF9F9 !important;
+  border: 1px solid transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all ease-in 0.2s;
+  transition: all ease-in 0.2s;
+}
+
+.content-artickle .landing .navbar-link .navbar-link, .content-artickle .landing .navbar-link a:hover {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid transparent;
+  border-bottom: 2px solid #fff;
+  -webkit-transition: all ease-in 0.2s;
+  transition: all ease-in 0.2s;
+}
+
+.content-artickle .landing .navbar-link .aktip {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid transparent;
+  border-bottom: 2px solid #fff;
+}
+
+.content-artickle .landing .title {
+  margin-top: 250px;
+  color: #FFFFFF;
+}
+
+.content-artickle .content {
+  height: 100%;
+}
+
+.content-artickle .content .artickle-link {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px;
+  border-bottom: 2px solid #343a40;
+}
+
+.content-artickle .content .col-8 .card {
+  -webkit-box-shadow: 6px 8px 32px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 6px 8px 32px 1px rgba(0, 0, 0, 0.25);
+}
+
+.content-artickle .footer {
+  background: #0F00BA;
+  color: #FFFFFF;
+  height: 350px;
+  margin-top: 80px;
+}
+
+.content-artickle .footer .footer-content .row .col ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.content-artickle .footer .footer-content .row .col ul li {
+  margin-bottom: 4px;
+}
+
+.content-artickle .footer .footer-content .row .col ul li img {
+  width: 25px;
+  height: 25px;
+}
+
+.content-artickle .footer .footer-content .row .col ul li a {
+  margin-left: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.content-artickle .footer .footer-content .row .col h1 {
   margin-left: 15px;
 }
 /*# sourceMappingURL=main.css.map */
