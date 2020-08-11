@@ -11004,6 +11004,28 @@ body .button-up img {
   transition: ease-in 0.3s;
 }
 
+.content-homepage .class .class-text .btn-blue {
+  color: #FFF9F9;
+  background: #0F00BA;
+  border-radius: 20px;
+  padding: 5px 12px;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+
+.content-homepage .class .class-text .btn-blue:hover {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #0F00BA;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 5px 12px;
+  border: 1px solid #181818;
+  font-weight: 500;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+
 .content-homepage .class .class-card {
   margin-top: 150px;
 }
@@ -11407,6 +11429,101 @@ body .button-up img {
 }
 
 .content-artickle .footer .footer-content .row .col h1 {
+  margin-left: 15px;
+}
+
+.content-class .landing {
+  background-image: url("/src/images/hero-class.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+}
+
+.content-class .landing .navbar-brand img {
+  height: 57px;
+}
+
+.content-class .landing .navbar-link .nav-item {
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.content-class .landing .navbar-link .nav-link {
+  color: #FFF9F9 !important;
+  border: 1px solid transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all ease-in 0.2s;
+  transition: all ease-in 0.2s;
+}
+
+.content-class .landing .navbar-link .navbar-link, .content-class .landing .navbar-link a:hover {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid transparent;
+  border-bottom: 2px solid #fff;
+  -webkit-transition: all ease-in 0.2s;
+  transition: all ease-in 0.2s;
+}
+
+.content-class .landing .navbar-link .aktip {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid transparent;
+  border-bottom: 2px solid #fff;
+}
+
+.content-class .landing .title {
+  margin-top: 250px;
+  color: #FFFFFF;
+}
+
+.content-class .content .banner {
+  width: auto;
+  height: 185px;
+}
+
+.content-class .content .profile {
+  height: 30px;
+  width: 30px;
+}
+
+.content-class .content .card {
+  -webkit-box-shadow: 1px 15px 15px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 15px 15px rgba(0, 0, 0, 0.25);
+}
+
+.content-class .footer {
+  background: #0F00BA;
+  color: #FFFFFF;
+  height: 350px;
+  margin-top: 80px;
+}
+
+.content-class .footer .footer-content .row .col ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.content-class .footer .footer-content .row .col ul li {
+  margin-bottom: 4px;
+}
+
+.content-class .footer .footer-content .row .col ul li img {
+  width: 25px;
+  height: 25px;
+}
+
+.content-class .footer .footer-content .row .col ul li a {
+  margin-left: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.content-class .footer .footer-content .row .col h1 {
   margin-left: 15px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,93 @@
+.content-class {
+    .landing {
+        background-image: url('/src/images/hero-class.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+    
+        .navbar-brand {
+            img {
+                height: 57px;
+            }
+        }
+
+        .navbar-link {
+            .nav-item {
+                margin-right: 20px;
+                font-size: 18px;
+            }
+            .nav-link {
+                color: #FFF9F9 !important;
+                border: 1px solid transparent;
+                box-sizing: border-box;
+                transition: all ease-in 0.2s;
+            }
+            .navbar-link, a:hover {
+                box-sizing: border-box;
+                border: 2px solid transparent;
+                border-bottom: 2px solid #fff;
+                transition: all ease-in 0.2s;
+            }
+            .aktip {
+                box-sizing: border-box;
+                border: 2px solid transparent;
+                border-bottom: 2px solid #fff;
+            }
+        }
+
+        .title {
+            margin-top: 250px;
+            color: #FFFFFF;
+        }
+    }
+
+    .content {
+        .banner {
+            width: auto;
+            height: 185px;
+        }
+        .profile {
+            height: 30px;
+            width: 30px;
+        }
+        .card {
+            box-shadow: 1px 15px 15px rgba(0, 0, 0, 0.25);
+        }
+    }
+
+    .footer {
+        background: #0F00BA;
+        color: #FFFFFF;
+        height: 350px;
+        margin-top: 80px;
+    
+        .footer-content {
+            .row {
+                .col {
+                    ul {
+                        display: inline-block;
+                        list-style: none;
+                        padding: 0;
+                        margin-bottom: 0;
+                        li {
+                            margin-bottom: 4px;
+                            img {
+                                width: 25px;
+                                height: 25px;
+                            }
+                            a {
+                                margin-left: 10px;
+                                color: #ffffff;
+                                font-size: 18px;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                    h1 {
+                        margin-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

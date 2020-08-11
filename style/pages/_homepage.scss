@@ -151,6 +151,23 @@
                 padding: 5px 12px;
                 transition: ease-in 0.3s;
             }
+            .btn-blue {
+                color:#FFF9F9;
+                background: #0F00BA;
+                border-radius: 20px;
+                padding: 5px 12px;
+                transition: ease-in 0.3s;
+            }
+            .btn-blue:hover {
+                box-sizing: border-box;
+                color:#0F00BA;
+                background: #ffffff;
+                border-radius: 20px;
+                padding: 5px 12px;
+                border: 1px solid #181818;
+                font-weight: 500;
+                transition: ease-in 0.3s;
+            }
         }
     
         .class-card {
